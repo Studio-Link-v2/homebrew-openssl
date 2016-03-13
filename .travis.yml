@@ -1,5 +1,5 @@
 os: osx
 script:
         - brew update
-        - brew install openssl --universal
+        - brew install openssl --universal --build-bottle
         - brew bottle openssl
