@@ -1,5 +1,8 @@
 os: osx
 osx_image: xcode6.4
+before_install: 
+- curl -I https://api.rubygems.org/specs.4.8.gz
+- rvm 1.9.3 do gem install dpl
 script:
 - brew update
 - brew install openssl --universal --build-bottle
