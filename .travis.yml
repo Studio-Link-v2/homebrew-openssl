@@ -1,6 +1,9 @@
 os: osx
 osx_image: xcode6.4
 before_install: 
+- brew update
+- brew install openssl
+- brew tap raggi/ale
 - brew install openssl-osx-ca
 - rvm 1.9.3 do gem install dpl
 script:
