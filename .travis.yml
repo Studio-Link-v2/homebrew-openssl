@@ -7,7 +7,7 @@ deploy:
   provider: releases
   api_key:
     secure: n44eLp+c2ppHT1aUZGG6D6ApFLiMhZP5bX8rL/D36NB2s5VIeIM1i7A8cbYFOrJ0oob2EaRaxHG0HNR/HpWjDi7uv18rhriqLGX59ZzpEIt+6x1iWm9lpYI2hL7AO3izBVfd5WN4l6w69ny7yqLrPeangwcj2PTe+q8deueB1G6FKm53Mt3+Bib0tJg/ljd3k2qTVdybUTShA7J7il9+YRFaqcLPV/geQodHYZEmYsehQc8ec4wJOavD3hsuHcDvK1gDmYY1wyvVOzZqcqqOTdzEaWEK0nqv5hAeIIkcgJEAz49vhCcvaFHiWF/BZcNbD59oVdRNBxDmRGtASXYrOXYUrIF7DhTgB860LjbgUjb0hmKzwRfz4PF9s2iiXmbgVME8Zr1cIoneyEjuCZv0MHHOOglCQColTGT+CBWItgL5Gtrx9jqqUPxURxcXy/JxShyZoYo5Cmbx8+erLpVE2ZQuGp9hQmXEjix7OSxBkpIYTvbEYBzgw0MoW+UmG3ZvnOmLC/KhhPgZPH8r8F3JO9AUXVD/isAuV31gmtlHbCPfI+OjgHwPG+ab5+KmOv63zR6/GNMxamR0hEHYnrzZh5PnmmzAXZLcdRUpYBE+eb29NC6MdEGh38A5aRLsZ8EBTH5rgRHFHc84K5PbsohnA1x43xYEQDNo4C1i+emNrWE=
-  file: openssl-1.0.2h_1.mavericks.bottle.1.tar.gz
+  file: openssl-1.0.2j_1.mavericks.bottle.1.tar.gz
   skip_cleanup: true
   on:
           tags: true
